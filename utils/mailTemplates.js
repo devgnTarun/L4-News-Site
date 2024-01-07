@@ -187,7 +187,7 @@ module.exports = {
                                                                     <table border="0" cellpadding="0" cellspacing="0">
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td> <a href="${url}auth/activate/${token}"
+                                                                                <td> <a href="${url}auth/activate/user/${token}"
                                                                                         target="_blank">Verify your email</a> </td>
                                                                             </tr>
                                                                         </tbody>
@@ -196,7 +196,7 @@ module.exports = {
                                                             </tr>
                                                         </tbody>
                                                     </table>
-                                                    <p>If above button does not work, copy this url in your browser ${url}auth/activate/${token}</p>
+                                                    <p>If above button does not work, copy this url in your browser ${url}auth/activate/user/${token}</p>
                                                 </td>
                                             </tr>
                                         </table>
